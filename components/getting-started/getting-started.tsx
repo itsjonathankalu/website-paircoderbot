@@ -9,7 +9,7 @@ const GettingStarted = () => {
       <div className="max-w-screen-lg mx-auto">
         <div className="text-center">
           <h2 className="text-4xl sm:text-5xl font-bold tracking-tight">
-            It's Open Source!
+            It&apos;s Open Source!
           </h2>
           <p className="mt-4 text-lg text-foreground/80 max-w-2xl mx-auto">
             Cody is open source and easy to set up. Follow these simple steps to get your own instance of Cody running from the GitHub repository.

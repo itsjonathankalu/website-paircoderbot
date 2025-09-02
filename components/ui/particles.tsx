@@ -77,6 +77,7 @@ const Particles: React.FC<ParticlesProps> = ({
   const canvasSize = useRef<{ w: number; h: number }>({ w: 0, h: 0 });
   const dpr = typeof window !== "undefined" ? window.devicePixelRatio : 1;
 
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   useEffect(() => {
     if (canvasRef.current) {
       context.current = canvasRef.current.getContext("2d");
@@ -90,10 +91,12 @@ const Particles: React.FC<ParticlesProps> = ({
     };
   }, [color]);
 
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   useEffect(() => {
     onMouseMove();
   }, [mousePosition.x, mousePosition.y]);
 
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   useEffect(() => {
     initCanvas();
   }, [refresh]);
