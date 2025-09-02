@@ -6,7 +6,7 @@ import Link from "next/link";
 
 const Hero06 = () => {
   return (
-    <div className="relative overflow-hidden flex items-center justify-center px-6 py-24 sm:py-32">
+    <div className="relative overflow-hidden flex items-center justify-center px-12 py-24 sm:py-32">
       <BackgroundPattern />
 
       <div className="relative z-10 text-center max-w-2xl">
